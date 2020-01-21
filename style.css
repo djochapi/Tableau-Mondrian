@@ -13,31 +13,31 @@
   '. w6 w6 . z2 z2 z2 z3 y2 y2 y2 r2 r2 r2 r2 r3 w4 y1 '
   '. w6 w6 . z2 z2 z2 z3 y2 y2 y2 r2 r2 r2 r2 r3 w4 y1 '
   '. w6 w6 . z2 z2 z2 z3 y2 y2 y2 r2 r2 r2 r2 r3 w4 y1 '
-  '. w6 w6 . y3 . . . . . . . . . . . . . '
-  '. w6 w6 . y3 . . . . . . . . . . . . . '
-  'w7 r1 r1 . y4 . . . . . . . . . . . . . '
-  'w7 r1 r1 . y4 . . . . . . . . . . . . . '
-  'w7 r1 r1 . y4 . . . . . . . . . . . . . '
-  'w7 r1 r1 . y4 . . . . . . . . . . . . . '
-  'z1 z1 z1 z1 y4 . . . . . . . . . . . . . '
+  '. w6 w6 . y3 r4 r4 r4 b3 b3 b3 x4 x4 x4 x4 x3 . . '
+  '. w6 w6 . y3 r4 r4 r4 b3 b3 b3 x4 x4 x4 x4 x3 . . '
+  'w7 r1 r1 . y4 h1 h1 h1 h1 h1 h2 h2 h2 b4 b4 y5 x1 x1 '
+  'w7 r1 r1 . y4 h1 h1 h1 h1 h1 h2 h2 h2 b4 b4 y5 x1 x1 '
+  'w7 r1 r1 . y4 h1 h1 h1 h1 h1 h2 h2 h2 b4 b4 y5 x1 x1 '
+  'w7 r1 r1 . y4 r5 r5 r5 . . . . . x2 x2 x2 x2 x2 '
+  'z1 z1 z1 z1 y4 r5 r5 r5 . . . . . x2 x2 x2 x2 x2 '
   
   
 
 }
 
-.item1, .item2, .item3, .item4, .item7, .item9, .item11, .item12, .item13, .item14 {
- background: white;
+.item1, .item2, .item3, .item4, .item7, .item9, .item11, .item12, .item13, .item14, .item23, .item24, .item27, .item28, .item29, .item30 {
+ background: whitesmoke;
 }
 
-.item5, .item15, .item18, .item19 {
+.item5, .item15, .item18, .item19, .item26 {
   background: yellow;
 }
 
-.item6, .item8 {
-  background: blue;
+.item6, .item8, .item21, .item25 {
+  background:navy;
 }
 
-.item10, .item16, .item17 {
+.item10, .item16, .item17, .item20, .item22 {
   background: red;
 }
 
@@ -115,4 +115,48 @@
 
 .item19 {
   grid-area: y4;
+}
+
+.item20 {
+  grid-area: r4;
+}
+
+.item21 {
+  grid-area: b3;
+}
+
+.item22 {
+  grid-area: r5;
+}
+
+.item23 {
+  grid-area: h1;
+}
+
+.item24 {
+  grid-area: h2;
+}
+
+.item25 {
+  grid-area: b4;
+}
+
+.item26 {
+  grid-area: y5;
+}
+
+.item27 {
+  grid-area: x1;
+}
+
+.item28 {
+  grid-area: x2;
+}
+
+.item29 {
+  grid-area: x3;
+}
+
+.item30 {
+  grid-area: x4;
 }
